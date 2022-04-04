@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78499C0627FA83130033707F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78499C0527FA83130033707F /* Launch Screen.storyboard */; };
 		78C58D1D27F10087009AEF29 /* Tabibi1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D1C27F10087009AEF29 /* Tabibi1App.swift */; };
 		78C58D1F27F10087009AEF29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D1E27F10087009AEF29 /* ContentView.swift */; };
-		78C58D2127F10089009AEF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C58D2027F10089009AEF29 /* Assets.xcassets */; };
 		78C58D2427F10089009AEF29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C58D2327F10089009AEF29 /* Preview Assets.xcassets */; };
 		78C58D2B27F100E4009AEF29 /* hospitalist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D2A27F100E4009AEF29 /* hospitalist.swift */; };
 		78C58D2D27F10148009AEF29 /* SALAM DOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D2C27F10148009AEF29 /* SALAM DOC.swift */; };
@@ -17,16 +17,24 @@
 		78C58D3327F1029B009AEF29 /* home screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D3227F1029B009AEF29 /* home screen.swift */; };
 		78C58D3527F102C2009AEF29 /* barview1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D3427F102C2009AEF29 /* barview1.swift */; };
 		78C58D3727F10A04009AEF29 /* symptomps1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D3627F10A04009AEF29 /* symptomps1.swift */; };
-		78C58D3A27F10D48009AEF29 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78C58D3927F10D48009AEF29 /* PlayfairDisplay-Bold.ttf */; };
 		78C58D4327F1232E009AEF29 /* logInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D4227F1232E009AEF29 /* logInView.swift */; };
 		78C58D4527F128AB009AEF29 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D4427F128AB009AEF29 /* MainPage.swift */; };
+		78C58D4927F2345E009AEF29 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D4827F2345E009AEF29 /* SideMenuView.swift */; };
+		78C58D4B27F23497009AEF29 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D4A27F23497009AEF29 /* SideMenuHeaderView.swift */; };
+		78C58D4D27F234B0009AEF29 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D4C27F234B0009AEF29 /* SideMenuOptionView.swift */; };
+		78C58D5827F25442009AEF29 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58D5727F25442009AEF29 /* UserView.swift */; };
+		78C58E2F27F36BA3009AEF29 /* LIst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58E2E27F36BA3009AEF29 /* LIst.swift */; };
+		78C58E3127F36CB7009AEF29 /* contact file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58E3027F36CB7009AEF29 /* contact file.swift */; };
+		78C58E3327F3CC41009AEF29 /* ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58E3227F3CC41009AEF29 /* ContactPage.swift */; };
+		78C58E3527F67D91009AEF29 /* SOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58E3427F67D91009AEF29 /* SOSView.swift */; };
+		78C58E3C27F7D2A1009AEF29 /* HospitalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C58E3B27F7D2A1009AEF29 /* HospitalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78499C0527FA83130033707F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		78C58D1927F10087009AEF29 /* Tabibi1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabibi1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C58D1C27F10087009AEF29 /* Tabibi1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabibi1App.swift; sourceTree = "<group>"; };
 		78C58D1E27F10087009AEF29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		78C58D2027F10089009AEF29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78C58D2327F10089009AEF29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78C58D2A27F100E4009AEF29 /* hospitalist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hospitalist.swift; sourceTree = "<group>"; };
 		78C58D2C27F10148009AEF29 /* SALAM DOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SALAM DOC.swift"; sourceTree = "<group>"; };
@@ -34,10 +42,18 @@
 		78C58D3227F1029B009AEF29 /* home screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "home screen.swift"; sourceTree = "<group>"; };
 		78C58D3427F102C2009AEF29 /* barview1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barview1.swift; sourceTree = "<group>"; };
 		78C58D3627F10A04009AEF29 /* symptomps1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptomps1.swift; sourceTree = "<group>"; };
-		78C58D3927F10D48009AEF29 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		78C58D3B27F10E1F009AEF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		78C58D4227F1232E009AEF29 /* logInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInView.swift; sourceTree = "<group>"; };
 		78C58D4427F128AB009AEF29 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		78C58D4827F2345E009AEF29 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		78C58D4A27F23497009AEF29 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		78C58D4C27F234B0009AEF29 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		78C58D5727F25442009AEF29 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		78C58E2E27F36BA3009AEF29 /* LIst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIst.swift; sourceTree = "<group>"; };
+		78C58E3027F36CB7009AEF29 /* contact file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "contact file.swift"; sourceTree = "<group>"; };
+		78C58E3227F3CC41009AEF29 /* ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPage.swift; sourceTree = "<group>"; };
+		78C58E3427F67D91009AEF29 /* SOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSView.swift; sourceTree = "<group>"; };
+		78C58E3B27F7D2A1009AEF29 /* HospitalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +70,6 @@
 		78C58D1027F10087009AEF29 = {
 			isa = PBXGroup;
 			children = (
-				78C58D3827F10CD8009AEF29 /* Fonts */,
 				78C58D1B27F10087009AEF29 /* Tabibi1 */,
 				78C58D1A27F10087009AEF29 /* Products */,
 			);
@@ -71,19 +86,27 @@
 		78C58D1B27F10087009AEF29 /* Tabibi1 */ = {
 			isa = PBXGroup;
 			children = (
+				78C58E3627F7CC77009AEF29 /* HospitalsView */,
+				78C58E2D27F36B8B009AEF29 /* Contacts */,
 				78C58D3B27F10E1F009AEF29 /* Info.plist */,
+				78499C0527FA83130033707F /* Launch Screen.storyboard */,
 				78C58D4227F1232E009AEF29 /* logInView.swift */,
-				78C58D1C27F10087009AEF29 /* Tabibi1App.swift */,
-				78C58D1E27F10087009AEF29 /* ContentView.swift */,
+				78C58E3427F67D91009AEF29 /* SOSView.swift */,
 				78C58D2A27F100E4009AEF29 /* hospitalist.swift */,
+				78C58D1C27F10087009AEF29 /* Tabibi1App.swift */,
+				78C58D5727F25442009AEF29 /* UserView.swift */,
+				78C58D1E27F10087009AEF29 /* ContentView.swift */,
 				78C58D2C27F10148009AEF29 /* SALAM DOC.swift */,
 				78C58D2E27F101CB009AEF29 /* salam doctors.swift */,
 				78C58D3227F1029B009AEF29 /* home screen.swift */,
 				78C58D3427F102C2009AEF29 /* barview1.swift */,
 				78C58D4427F128AB009AEF29 /* MainPage.swift */,
 				78C58D3627F10A04009AEF29 /* symptomps1.swift */,
-				78C58D2027F10089009AEF29 /* Assets.xcassets */,
+				78C58D2327F10089009AEF29 /* Preview Assets.xcassets */,
 				78C58D2227F10089009AEF29 /* Preview Content */,
+				78C58D4827F2345E009AEF29 /* SideMenuView.swift */,
+				78C58D4A27F23497009AEF29 /* SideMenuHeaderView.swift */,
+				78C58D4C27F234B0009AEF29 /* SideMenuOptionView.swift */,
 			);
 			path = Tabibi1;
 			sourceTree = "<group>";
@@ -91,17 +114,26 @@
 		78C58D2227F10089009AEF29 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				78C58D2327F10089009AEF29 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		78C58D3827F10CD8009AEF29 /* Fonts */ = {
+		78C58E2D27F36B8B009AEF29 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				78C58D3927F10D48009AEF29 /* PlayfairDisplay-Bold.ttf */,
+				78C58E2E27F36BA3009AEF29 /* LIst.swift */,
+				78C58E3027F36CB7009AEF29 /* contact file.swift */,
+				78C58E3227F3CC41009AEF29 /* ContactPage.swift */,
 			);
-			path = Fonts;
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		78C58E3627F7CC77009AEF29 /* HospitalsView */ = {
+			isa = PBXGroup;
+			children = (
+				78C58E3B27F7D2A1009AEF29 /* HospitalView.swift */,
+			);
+			path = HospitalsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +194,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C58D3A27F10D48009AEF29 /* PlayfairDisplay-Bold.ttf in Resources */,
+				78499C0627FA83130033707F /* Launch Screen.storyboard in Resources */,
 				78C58D2427F10089009AEF29 /* Preview Assets.xcassets in Resources */,
-				78C58D2127F10089009AEF29 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +206,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C58E3527F67D91009AEF29 /* SOSView.swift in Sources */,
+				78C58D4D27F234B0009AEF29 /* SideMenuOptionView.swift in Sources */,
 				78C58D3727F10A04009AEF29 /* symptomps1.swift in Sources */,
 				78C58D3527F102C2009AEF29 /* barview1.swift in Sources */,
 				78C58D4327F1232E009AEF29 /* logInView.swift in Sources */,
 				78C58D2F27F101CB009AEF29 /* salam doctors.swift in Sources */,
+				78C58D4927F2345E009AEF29 /* SideMenuView.swift in Sources */,
 				78C58D1F27F10087009AEF29 /* ContentView.swift in Sources */,
+				78C58E2F27F36BA3009AEF29 /* LIst.swift in Sources */,
 				78C58D4527F128AB009AEF29 /* MainPage.swift in Sources */,
+				78C58E3127F36CB7009AEF29 /* contact file.swift in Sources */,
+				78C58D5827F25442009AEF29 /* UserView.swift in Sources */,
+				78C58E3327F3CC41009AEF29 /* ContactPage.swift in Sources */,
+				78C58E3C27F7D2A1009AEF29 /* HospitalView.swift in Sources */,
 				78C58D2B27F100E4009AEF29 /* hospitalist.swift in Sources */,
 				78C58D3327F1029B009AEF29 /* home screen.swift in Sources */,
+				78C58D4B27F23497009AEF29 /* SideMenuHeaderView.swift in Sources */,
 				78C58D2D27F10148009AEF29 /* SALAM DOC.swift in Sources */,
 				78C58D1D27F10087009AEF29 /* Tabibi1App.swift in Sources */,
 			);
@@ -322,6 +362,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -352,6 +393,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

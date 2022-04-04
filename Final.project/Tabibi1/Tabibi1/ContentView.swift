@@ -12,7 +12,7 @@ struct symptomps: Identifiable{
     var dname: String
 }
 var symp = [
-
+    
     symptomps(image: "sneezing", dname:"Sneezing" ),
     symptomps(image: "stm", dname:"Stomache Ache" ),
     symptomps(image: "cold", dname:"Cold" ),
@@ -33,15 +33,54 @@ var docs = [
     doctorsinfo(name: "Amr Tarek", specs: "cardiothoracic and orthopedic.", pic: "doc1", wrkplc: "Al-Salam hsp.")
 ]
 struct ContentView: View {
+    @State private var isShowing = false
     @State var selectedindex: Int = 0
     let catg = ["Private hospitals","Top rated Doctors","Symptomps","COVID-19 Pandemic latest news","Insurance Services"]
+    
+    @State var animate: Bool = false
+    @State var ShowAni: Bool = true
+    
     var body: some View {
         
-        NavigationView {
-            logInView()
-            
+        
+        VStack{
+            ZStack{
+                
+                ZStack{
+                    
+                    logInView()
+                    
+                    
+                }
+                
+                ZStack{
+                    Color(#colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
+                    Image("logo 1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 125, height: 125)
+                        .scaleEffect(animate ? 4 : 1)
+                        .animation(Animation.easeOut(duration: 2))
+                }
+                .edgesIgnoringSafeArea(.all)
+                .animation(Animation.linear(duration: 2))
+                .opacity(ShowAni ? 3 : 0)
+                
+            }
         }
-        .navigationBarHidden(true)
+        .onAppear{
+            DispatchQueue.main.asyncAfter(deadline: .now()+0.001){
+                animate.toggle()
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now()+1){
+                ShowAni.toggle()
+            }
+        }
+        
+        
+        
+        
     }
     
     

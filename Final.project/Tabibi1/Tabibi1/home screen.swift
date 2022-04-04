@@ -12,7 +12,7 @@ struct home_screen: View {
         VStack{
             docview()
         }.edgesIgnoringSafeArea(.bottom)
-         
+        
     }
 }
 
@@ -72,7 +72,7 @@ struct docdisc: View {
 
 struct docview: View {
     @State private var AlertIsPresented = false
-
+    
     var body: some View {
         ZStack{
             Color(#colorLiteral(red: 0.7498469949, green: 0.8413919806, blue: 0.9537789226, alpha: 1))
@@ -81,7 +81,7 @@ struct docview: View {
                 Image("doc2")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    
+                
                 VStack(alignment: .leading){
                     Text("Dr: Saeed Alshaty")
                         .font(.title)
@@ -126,7 +126,7 @@ struct docview: View {
                 .padding(.top)
                 .background(Color.white)
                 .cornerRadius(40)
-                    .offset(y: -40)
+                .offset(y: -40)
             }.edgesIgnoringSafeArea(.top)
             HStack{
                 Text("Royal Hayat Hospital")
